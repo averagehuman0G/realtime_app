@@ -3,8 +3,8 @@ var PubNub = require('pubnub');
 function publish() {
    
     pubnub = new PubNub({
-        publishKey : 'demo',
-        subscribeKey : 'demo'
+        publishKey : 'pub-c-56428378-3eb7-4c27-892c-619f4235ed32',
+        subscribeKey : 'sub-c-56d122dc-550e-11e7-af22-02ee2ddab7fe'
     })
        
     function publishSampleMessage() {
